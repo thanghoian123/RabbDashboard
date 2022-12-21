@@ -8,6 +8,7 @@
     "@fullcalendar/core": "^6.0.0",
     "@fullcalendar/daygrid": "^6.0.0",
     "@fullcalendar/react": "^6.0.0",
+    "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.0",
     "@mui/styled-engine-sc": "^5.11.0",
     "@nivo/bar": "^0.80.0",
