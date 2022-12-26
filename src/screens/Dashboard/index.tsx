@@ -1,11 +1,12 @@
-import React from 'react';
+import { Box } from "@mui/material";
+import Header from "../../components/header";
 
 function Dashboard() {
-    return (
-        <div>
-           dashboard
-        </div>
-    );
+  return (
+    <Box m="20px">
+      <Header title="DASHBOARD" subTitle="Welcome to dashboard" />
+    </Box>
+  );
 }
 
 export default Dashboard;

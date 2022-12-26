@@ -1,11 +1,12 @@
 import { CssBaseline, Theme, ThemeProvider } from '@mui/material';
-import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Calendar from './screens/Calendar';
 import Dashboard from './screens/Dashboard';
 import SideBar from './screens/global/SideBar';
 import TopBar from './screens/global/TopBar';
-import { ColorModeContext, EMode, IColorMode, useMode } from './theme';
+import Team from './screens/Team';
+import { ColorModeContext, IColorMode, useMode } from './theme';
 
 function App() {
 
@@ -21,6 +22,9 @@ function App() {
             <TopBar />
             <Routes>
                 <Route path='/' element={<Dashboard/>}/>
+                <Route path='/teams' element={<Team/>}/>
+                <Route path='/calendar' element={<Calendar/>}/>
+
             </Routes>
           </main>
         </div>
